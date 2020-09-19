@@ -1,23 +1,20 @@
 
-organise the flutter code in different class instead of runApp function with StatelessWidget:--
+organise the flutter code in different class instead of runApp
 
-if we have we have expression with single statement the we can convert into Fat annotation like following.
+We can create the seperate file with extension .dart and use this for organise the code.
 
-Normal expression
-void main() {
-    runApp(MyFlutterApp());
-} 
+Suppose we create class first_screen.dart and in this class we take following line
+class FirstScreen extends StatelessWidget
 
-Fat annotation expression
-void main() => runApp(MyFlutterApp());
+then it means the we can import this class anywhere in our code and this class will return Widget
 
-To remove the debug tag use debugShowCheckedModeBanner property with in MaterialApp widget.
+functions:-
 
-MaterialApp:-- this widget represent the whole screen of app.
-properties:-- title (show the title when app show in background tray), home (represent the app screen)
+return_type function_name()
 
-Scaffold:--
-properties:-- appBar (this is used to define the Navigation Bar of the app), body (in this property we define the content of the screen)
+
+to print the variable we can use $variable_name
+
 
 
 
