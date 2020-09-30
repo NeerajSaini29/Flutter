@@ -1,20 +1,11 @@
-import 'package:awesomeflutter/app_screens/first_screen.dart';
+import 'package:awesomeflutter/app_screens/home.dart';
 import 'package:flutter/material.dart';
+import 'package:draw_graph/draw_graph.dart';
 
-void main() => runApp(MyFlutterApp());
-
-class MyFlutterApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: "My Flutter App",
-        home: Scaffold(
-          appBar: AppBar(
-            title: Text("My First App"),
-          ),
-          body: FirstScreen(),
-        ));
-  }
+void main() {
+  runApp(MaterialApp(
+    title: "UI widget",
+    debugShowCheckedModeBanner: false,
+    home: Home(),
+  ));
 }

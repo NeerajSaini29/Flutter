@@ -41,5 +41,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>App will need access of local network</string>
 </dict>
 </plist>

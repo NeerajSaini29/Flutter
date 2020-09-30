@@ -1,22 +1,8 @@
 
-organise the flutter code in different class instead of runApp
+Widgets:--
 
-We can create the seperate file with extension .dart and use this for organise the code.
+Box Constraint:-- In flutter all the widgets have some sizes or dimensions. so we call the dimension then it means it has box. and every box has some width and height. each box follow some guide line to attain the width and height that is depending upon the child and parent. such guideline are called Box Constraint.
 
-Suppose we create class first_screen.dart and in this class we take following line
-class FirstScreen extends StatelessWidget
-
-then it means the we can import this class anywhere in our code and this class will return Widget
-
-functions:-
-
-return_type function_name()
-
-
-to print the variable we can use $variable_name
-
-
-
-
+Container:--
 
 
