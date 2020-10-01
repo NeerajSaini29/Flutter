@@ -10,6 +10,13 @@ class Home extends StatelessWidget {
         color: Colors.blue,
         child: Text(
           "Flight",
+          style: TextStyle(
+              decoration: TextDecoration.none,
+              fontSize: 75.0,
+              fontFamily: 'Raleway',
+              fontWeight: FontWeight.w700,
+              //fontStyle: FontStyle.italic,
+              color: Colors.white),
         ),
       ),
     );

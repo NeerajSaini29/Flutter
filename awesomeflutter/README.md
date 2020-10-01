@@ -1,8 +1,23 @@
 
-Widgets:--
+Text Style:--
+decoration: TextDecoration object,
+fontSize: 75.0,
+fontFamily: 'Raleway',
+fontWeight: FontWeight.w700
+fontStyle: FontStyle.italic,
+color: Colors.white
 
-Box Constraint:-- In flutter all the widgets have some sizes or dimensions. so we call the dimension then it means it has box. and every box has some width and height. each box follow some guide line to attain the width and height that is depending upon the child and parent. such guideline are called Box Constraint.
+Custom Font:--
+* open the url fonts.google.com
+* search font and download it.
+* create the folder in root path with name "fonts"
+* copy the fonts file (.ttf) extension and paste in the fonts folder.
+* Now add the font family in pudspec.yaml file
+* save the pubspec.yaml file.
+* in Text style use the following property to set the custom fonts.
+fontFamily: 'Raleway', // this name is select to th
+              fontWeight:
 
-Container:--
+Note:-- if we do any change in pubspec.yaml file. then we need to get dependenices once. 
 
 
